@@ -1,8 +1,10 @@
+package main;
+
 public class Pet {
     /*name
 age
 species
-owner (Person)
+owner (main.Person)
 */
     private String name;
     private int age;
