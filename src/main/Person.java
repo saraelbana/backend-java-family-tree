@@ -86,6 +86,17 @@ public class Person {
     public List<Pet> getPets() {
         return Pets;
     }
+
+    public void addChild(){}
+
+    public void addParents(Person mother, Person father){
+        this.mother = mother;
+        this.father = father;
+    }
+
+    public void addPet(){}
+
+    public void addSibling(){}
     public List<Person> getGrandChildren(){
         List<Person> grandChildren = new ArrayList<Person>();
         for(int i =0; i<children.size();i++)

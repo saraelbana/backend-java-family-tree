@@ -10,6 +10,7 @@ owner (main.Person)
     private int age;
     private String species;
     private Person owner = new Person();
+    
 
     public void setName(String name) {
         this.name = name;
